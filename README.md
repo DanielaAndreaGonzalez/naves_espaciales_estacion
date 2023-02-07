@@ -116,7 +116,7 @@ The project lists the ships that are stored in each of the three ship types.
 
 * list of shuttle vehicle type ships: http://localhost:8081/naves/listarVehiculoLanzadera
 * list of unmanned spaceship type ships: http://localhost:8081/naves/listarNaveNoTripulada
-* list of spaceship type ships: http://localhost:8081/ships/listarNaveTripulada
+* list of spaceship type ships: http://localhost:8081/naves/listarNaveTripulada
 
 *******************************************************************************************************************************************************
 
