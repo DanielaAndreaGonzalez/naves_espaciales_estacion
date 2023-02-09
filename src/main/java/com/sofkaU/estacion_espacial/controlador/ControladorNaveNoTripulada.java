@@ -37,7 +37,8 @@ import com.sofkaU.estacion_espacial.modelo.naveEspacialNoTripulada;
  */
 @RestController
 @RequestMapping("/naves")
-@CrossOrigin("http://localhost:8080/")
+//@CrossOrigin("http://localhost:8080/")
+@CrossOrigin("https://proyecto-nave.web.app/")
 public class ControladorNaveNoTripulada {
 	
 	@Autowired

@@ -22,6 +22,6 @@ import com.sofkaU.estacion_espacial.modelo.VehiculoLanzadera;
  */
 @Repository
 public interface InterfaceVehiculoLanzadera extends CrudRepository<VehiculoLanzadera, Integer>{
-	@Query(value="select * from vehiculo_lanzadera  where nombre like %:nombre%",nativeQuery = true)//busqueda por un solo campo
+	@Query(value="select * from nave_espacial_vehiculo_lanzadera  where nombre like %:nombre%",nativeQuery = true)//busqueda por un solo campo
     List<VehiculoLanzadera> findByName(String nombre);
 }

@@ -60,6 +60,7 @@ public class VehiculoLanzadera extends NaveEspacial{
 	public VehiculoLanzadera(String nombre, String pais, Date actividad, double velocidad,
 			 double peso, double alto, TipoNave tipo, double capacidadCarga,
 			 String tipoCombustible,double potencia, String sistemaPropulsion, String tipoCarga) {
+		
 		super(nombre, pais, actividad, velocidad, tipoCombustible, peso, alto, tipoCarga);
 		this.capacidadCarga = capacidadCarga;
 		this.potencia = potencia;
@@ -67,6 +68,11 @@ public class VehiculoLanzadera extends NaveEspacial{
 		this.tipoCarga = tipoCarga;
 	}
 	
+	
+	
+	
+
+
 	public VehiculoLanzadera() {
 		
 	};

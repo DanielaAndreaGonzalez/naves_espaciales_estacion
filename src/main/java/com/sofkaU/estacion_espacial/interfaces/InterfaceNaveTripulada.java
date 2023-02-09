@@ -25,4 +25,6 @@ public interface InterfaceNaveTripulada extends CrudRepository<naveEspacialTripu
 	@Query(value="select * from nave_espacial_tripulada  where nombre like %:nombre%",nativeQuery = true)//busqueda por un solo campo
     List<naveEspacialTripulada> findByName(String nombre);
 
+    public naveEspacialTripulada findByNombre(String nombre);
+    
 }

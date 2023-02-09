@@ -34,7 +34,7 @@ import com.sofkaU.estacion_espacial.modelo.VehiculoLanzadera;
  */
 @RestController
 @RequestMapping("/naves")
-@CrossOrigin("http://localhost:8080/")
+@CrossOrigin("https://proyecto-nave.web.app/")
 public class ControladorVehiculoLanzadera {
 	
 	@Autowired
