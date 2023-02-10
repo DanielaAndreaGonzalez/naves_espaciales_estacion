@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.sofkaU.estacion_espacial.InterfaceServices.InterfazNaveTripuladaService;
-import com.sofkaU.estacion_espacial.modelo.VehiculoLanzadera;
 import com.sofkaU.estacion_espacial.modelo.naveEspacialTripulada;
 
 /**

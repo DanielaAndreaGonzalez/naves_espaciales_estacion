@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 
 import com.sofkaU.estacion_espacial.InterfaceServices.InterfazNaveNoTripuladaService;
 import com.sofkaU.estacion_espacial.interfaces.InterfaceNaveNoTripulada;
-import com.sofkaU.estacion_espacial.modelo.VehiculoLanzadera;
 import com.sofkaU.estacion_espacial.modelo.naveEspacialNoTripulada;
 
 /**

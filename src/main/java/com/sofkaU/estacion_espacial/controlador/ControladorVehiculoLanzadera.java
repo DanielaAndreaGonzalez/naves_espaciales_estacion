@@ -3,7 +3,6 @@
  */
 package com.sofkaU.estacion_espacial.controlador;
 
-import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,21 +15,19 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.sofkaU.estacion_espacial.InterfaceServices.InterfazVehiculoLanzaderaService;
-import com.sofkaU.estacion_espacial.modelo.TipoNave;
 import com.sofkaU.estacion_espacial.modelo.VehiculoLanzadera;
 
 
 /**
  * @author DanielaAGonzalezH
  * @version 1.0
- * @since 11/07/2022
+ * @since 02/09/2023
  *
  *Controlador que manipula el flujo de los servicios 
- *Rest de microservicios de nvehiculos lanzadera
+ *Rest de microservicios de vehiculos lanzadera
  */
 @RestController
 @RequestMapping("/naves")

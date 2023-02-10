@@ -18,13 +18,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.sofkaU.estacion_espacial.InterfaceServices.InterfazNaveNoTripuladaService;
-import com.sofkaU.estacion_espacial.modelo.VehiculoLanzadera;
 import com.sofkaU.estacion_espacial.modelo.naveEspacialNoTripulada;
 
 /**
  * @author DanielaAGonzalezH
  * @version 1.0
- * @since 07/02/2023
+ * @since 09/02/2023
  *
  *Controlador que manipula el flujo de los servicios 
  *Rest de microservicios de naves no tripuladas
@@ -37,7 +36,6 @@ import com.sofkaU.estacion_espacial.modelo.naveEspacialNoTripulada;
  */
 @RestController
 @RequestMapping("/naves")
-//@CrossOrigin("http://localhost:8080/")
 @CrossOrigin("https://proyecto-nave.web.app/")
 public class ControladorNaveNoTripulada {
 	

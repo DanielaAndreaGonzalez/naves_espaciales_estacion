@@ -4,8 +4,6 @@
 package com.sofkaU.estacion_espacial.modelo;
 
 import java.util.Date;
-
-import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 
 /**

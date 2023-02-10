@@ -3,20 +3,16 @@
  */
 package com.sofkaU.estacion_espacial.modelo;
 
-import javax.persistence.Entity;
+
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 /**
  * @author DanielaAGonzalezH
  * @since 07/02/2023
  *
  */
-//@Entity
-//@Table(name = "tipo_estudio")
-
 public class TipoEstudio {
 	
 	@Id

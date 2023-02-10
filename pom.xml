@@ -12,7 +12,7 @@
 	<artifactId>estacion_espacial</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>estacion_espacial</name>
-	<description>Proyecto que simula la creación de tres tipos de naves espaciales</description>
+	<description>Proyecto para la creacion de naves espaciales</description>
 	<!-- <properties>
 		<java.version>11</java.version>
 	</properties> -->

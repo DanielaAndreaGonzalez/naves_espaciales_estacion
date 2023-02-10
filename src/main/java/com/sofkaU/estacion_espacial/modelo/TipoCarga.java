@@ -3,20 +3,14 @@
  */
 package com.sofkaU.estacion_espacial.modelo;
 
-import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 /**
  * @author DanielaAGonzalezH
  *@since 07/02/2023
  */
-
-//@Entity
-//@Table(name = "tipo_carga_lanzadera")
-
 public class TipoCarga {
 	
 	
@@ -24,19 +18,15 @@ public class TipoCarga {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String nombre;
-	private String descripcion;
-	
-	
 	
 	/**
 	 * 
 	 * @param nombre
 	 * @param descripcion
 	 */
-	public TipoCarga(String nombre, String descripcion) {
+	public TipoCarga(String nombre) {
 		super();
 		this.nombre = nombre;
-		this.descripcion = descripcion;
 	}
 	/**
 	 * @return the id

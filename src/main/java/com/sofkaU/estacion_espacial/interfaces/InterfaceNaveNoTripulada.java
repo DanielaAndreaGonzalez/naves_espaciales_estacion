@@ -8,8 +8,6 @@ import java.util.List;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-
-import com.sofkaU.estacion_espacial.modelo.VehiculoLanzadera;
 import com.sofkaU.estacion_espacial.modelo.naveEspacialNoTripulada;
 
 /**
