@@ -107,6 +107,11 @@ public class naveEspacialNoTripulada extends NaveEspacial{
 		System.out.println("Fijar destino a" +this.tipoEstudio);
 		
 	}
+	@Override
+	public String toString() {
+		return "naveEspacialNoTripulada [id=" + id + ", cantidadMotores=" + cantidadMotores + ", tipoEstudio="
+				+ tipoEstudio + "]";
+	}
 	
 	
 	

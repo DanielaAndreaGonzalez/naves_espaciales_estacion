@@ -35,8 +35,7 @@ public class NaveTripuladaTest {
 		assertThat(naveTripulada.getNombre()).isEqualTo(nombre);		
 	}
 	
-	
-	
+
 	
 
 }

@@ -24,8 +24,7 @@ import com.sofkaU.estacion_espacial.modelo.naveEspacialTripulada;
 /**
  * @author DanielaAGonzalezH
  * @version 1.0
- * @since 11/07/2022
- *
+ * 
  *Controlador que manipula el flujo de los servicios 
  *Rest de microservicios de naves tripuladas
  *
